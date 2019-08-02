@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+---
+layout: default
+---
 
-You can use the [editor on GitHub](https://github.com/Zrain008/js3/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Link to another page](./another-page.html).
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
 
 # Header 1
-## Header 2
-### Header 3
+<div>
+    <h2 style="font-size: 18px; font-family: 微软雅黑;"> 第一题：查找资料，总结.value ,innerHtml, innerText, textContent 的区别和用法</h2>
+        <p style="font-family: 微软雅黑; font-size: 14px;">value：应用于表单的输入框（textarea除外）</br>
+        innerHTML:可以写入HTML代码，写入的HTML代码可以被解析，获得时候也可以获得HTML代码</br>
+        innerText：获得内容的时候，会忽略HTML代码，写入HTML代码不能解析。获得内容与HTML解析的内容一样</br>
+        textContent：获得内容的时候，会忽略HTML代码，写入HTML代码不能解析。获取的内容与源码内容一样
+    </p>
+</div>
+<br>
+第二题</br>
+<input style=" margin-top: 15px; margin-bottom: 15px" type="button" value="测试函数" onclick="f4()"></br>
 
-- Bulleted
-- List
+第三题</br>
+<input style=" margin-top: 15px; margin-bottom: 15px" type="button" value="测试函数" onclick="f5()"></br>
 
-1. Numbered
-2. List
+第四题</br>
+<input style=" margin-top: 15px; margin-bottom: 15px" type="button" value="测试函数" onclick="f6()"></br>
 
-**Bold** and _Italic_ and `Code` text
+第五题</br>
 
-[Link](url) and ![Image](src)
-```
+<input type="file" class="file" id="uploadPath" name="uploadPath" accept="image/gif,image/png,image/bmp,image/jpeg" onchange="previewImage(this,'img')" />
+<input type="submit" name="submit" onclick="javascript:return checkForm();" value="点击提交" style="font-size:14px;width:98px;height:28px;background:#ffffff;  border: 1px solid #2e82ff;" />
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<script>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Zrain008/js3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+   /* function my$(id) {
+        return document.getElementById(id);
+    };
 
-### Support or Contact
+    */
+</script>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<script>
+  /* my$("btn").onclick = function () {
+        my$("dv").innerText = "哈哈";//设置文本
+        my$("dv").innerText = "<p>这是一个p</p>";//设置html标签的代码
+    };
+
+   /*my$("btn").onclick = function () {
+       my$("dv").innerHTML = "哈哈";
+       my$("dv").innerHTML = "<p>这是一个p</p>";//设置Html标签的
+   };
+
+    */
+
+
+</script>
+
+<script src="script/js8.js"></script>
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
